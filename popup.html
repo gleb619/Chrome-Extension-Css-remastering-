@@ -1,0 +1,197 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="master.css" rel="stylesheet" type="text/css">
+  <link href="animate.min.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="popup.js"></script>
+  <title>This application helps to see how the site will look after the implementation of a module for the search of hotels. Made by Taimax Team.</title>
+</head>
+<body class="hint">
+	<a id="open_new_page" class="button btn-block" role="button" href="http://www.silktour.kz/online-gostinicy" target='_newtab'>
+		<span>Открыть страницу</span>
+	</a>
+			
+	<br>
+	<br>
+	
+	<div class="panel">
+			<div class="panel-heading">
+				Настройки
+			</div>
+			<div class="panel-body">
+				<form>
+					<div class="form-group">
+					
+						<div class="checkbox">
+						  <label>
+							<input type="checkbox" id="slider_enable" checked class="form-control">
+							<span>Показать слайдер</span>
+						  </label>
+						</div>
+						
+						<div class="checkbox">
+						  <label>
+							<input type="checkbox" id="footer_enable" checked class="form-control">
+							<span>Показать нижнюю панель</span>
+						  </label>
+						</div>
+						
+						<div class="checkbox">
+						  <label>
+							<input type="checkbox" id="fullsize_enable" checked class="form-control" checked="false">
+							<span>На весь экран</span>
+						  </label>
+						</div>
+						
+					</div>
+					<div class="form-group">
+						<label>Размер основного блока</label>
+						<input id="content_width" type="number" class="form-control" placeholder="1020">
+					</div>
+					<div class="form-group">
+						<label>Размер карточки</label>
+						<input id="card_width" type="number" class="form-control"placeholder="180">
+					</div>
+					
+					
+					<div class="form-group">
+					<div class="FAQ row">
+						<a href="#hide1" class="hide" id="hide1">˅</a>
+						<a href="#show1" class="show" id="show1">˄</a>
+						<div class="question"> Настройка модуля </div>
+							<div class="list">
+								
+								<div class="form-group">
+									<label>Основной цвет</label>
+									<div class="row">
+										<div class="col-md-4">
+											<input id="main_color" type="color" class="form-control">
+										</div>
+										<div class="col-md-8">
+											<input id="main_color_text" type="text"  class="form-control" placeholder="#ffffff">
+										</div>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label>Цвет заголовка</label>
+									<div class="row">
+										<div class="col-md-4">
+											<input id="header_color" type="color" class="form-control">
+										</div>
+										<div class="col-md-8">
+											<input id="header_color_text" type="text"  class="form-control" placeholder="#F97E76">
+										</div>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label>Цвет панели</label>
+									<div class="row">
+										<div class="col-md-4">
+											<input id="panel_color" type="color" class="form-control">
+										</div>
+										<div class="col-md-8">
+											<input id="panel_color_text" type="text"  class="form-control" placeholder="#FBFBFC">
+										</div>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label>Цвет шрифта заголовка</label>
+									<div class="row">
+										<div class="col-md-4">
+											<input id="header_font_color" type="color" class="form-control">
+										</div>
+										<div class="col-md-8">
+											<input id="header_font_color_text" type="text"  class="form-control" placeholder="#ffffff">
+										</div>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label>Цвет шрифта панели</label>
+									<div class="row">
+										<div class="col-md-4">
+											<input id="panel_font_color" type="color" class="form-control">
+										</div>
+										<div class="col-md-8">
+											<input id="panel_font_color_text" type="text"  class="form-control" placeholder="#333333">
+										</div>
+									</div>
+								</div>
+								
+								<hr>
+								
+								<div class="form-group">
+									<div class="checkbox">
+									  <label>
+										<input type="checkbox" id="circled_image" checked class="form-control">
+										<span>Круглая рамка картинки</span>
+									  </label>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label>Цвет карточки</label>
+									<div class="row">
+										<div class="col-md-4">
+											<input id="card_color" type="color" class="form-control">
+										</div>
+										<div class="col-md-8">
+											<input id="card_color_text" type="text"  class="form-control" placeholder="#ffffff" checked="false">
+										</div>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label>Цвет карточки[FREESALE]</label>
+									<div class="row">
+										<div class="col-md-4">
+											<input id="freesale_card_color" type="color" class="form-control">
+										</div>
+										<div class="col-md-8">
+											<input id="freesale_card_color_text" type="text"  class="form-control" placeholder="#66cfe3" checked="false">
+										</div>
+									</div>
+								</div>
+								
+							</div>
+					</div>
+					</div>
+					
+					
+					
+					
+					<div class="form-group center">
+						<button id="acceptButton" type="button">
+							<span>Применить</span>
+						</button>
+					</div>
+					<div class="form-group center">
+						<button id="dropButton" type="button" class="btn-danger">
+							<span>Сбросить</span>
+						</button>
+					</div>
+				</form>
+			</div>
+	</div>
+	
+	
+	<div class="panel">
+			<div class="panel-heading">
+				Лог событий
+			</div>
+			<div class="panel-body">
+				<p id="log"></p>
+			</div>
+	</div>
+	
+	<!--
+	<div class="center">
+		<a id="siteHref" href="http://www.silktour.kz/" class="btn">Open silktour.kz</a>
+	</div>
+	-->
+</body>
+</html>
+
